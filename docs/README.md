@@ -1,3 +1,5 @@
+# NOTE - THIS IS A WORK IN PROGRESS REPO AND CHANGES WILL BE MADE ON A REGULAR BASIS 
+
 # ChBot - An AI Agent for Medical Image Diagnosis
 
 ## Overview
