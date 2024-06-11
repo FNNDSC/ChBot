@@ -35,4 +35,7 @@ but it involves some additional effort to achieve that.
 ### How LAMs Combine Language Understanding with Autonomous Action
 * Unlike LLMs, which primarily focus on processing and generating text, LAMs possess the unique ability to interpret human language and autonomously execute actions based on that understanding.
 * This seamless integration of language comprehension and action execution enables LAMs to generate actionable insights and drive tangible outcomes in real-time.
+
+
+#### References 
   
