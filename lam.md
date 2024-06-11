@@ -1,41 +1,59 @@
-# WIP 
+# Understanding Large Action Models (LAMs)
 
-## Large Action Models - Findings and relevant info
+Large Action Models (LAMs) are a type of foundation model similar to Large Language Models (LLMs). They merge the language comprehension capabilities of LLMs with the ability to interact with external systems and perform tasks. This enables LAMs to understand complex questions, generate informative responses, and take actions such as conducting analyses and producing reports.
 
-### What are Large Action Models (LAMs)?
+## Key Features
 
-* Large Action Models or LAMs are a type of foundation model like large language models (LLMs).
-* They combine the language comprehension of large language models (LLMs) with the ability to interact with external systems and perform tasks. 
-* With this they are able to  understand complex questions, generate informative responses, and even take actions like performing an analysys and producing a report.
-* LAMs are trained on vast amounts of text and code, giving them the knowledge to handle a wide range of educational topics. 
-* They can be further fine-tuned for specific tasks, like tutoring in different subjects, providing feedback on essays, or even simulating real-world scenarios.
+1. **Training and Knowledge Base**
+   - LAMs are trained on vast amounts of text and code, giving them the knowledge to handle a wide range of topics.
+   - They can be fine-tuned for specific applications like tutoring in various subjects, providing feedback on essays, or simulating real-world scenarios.
 
-### How Does It Work?
-* To understand the structured nature of human-computer interactions within applications LAM uses neuro-symbolic programming. 
-* It is an artificial intelligence approach that combines techniques from both neural networks which are inspired by the structure of the brain and symbolic AI technologies which deal with logic and symbols. 
-* Neuro-symbolic techniques can help LAMs understand and represent the complex relationships between actions and human intention.
-* Furthermore, LAM assists the user in performing an action through extensive knowledge of user interfaces. 
-* This means that during the training process, the LAM model learns what a large number of user interfaces of websites and applications look like and the way they work.
-* During training, LAMs adapt the technique called “imitation through demonstration” or “learning through demonstration”.
-* It means that they examine how people engage with interfaces as they click buttons or enter data, and then accurately mimic these actions.
-* They collect the knowledge and learn from examples provided by users, making them more adaptable to further changes and capable of handling diverse tasks.
+2. **Agent Utilization**
+   - LAMs use agents, which are software entities capable of independently executing tasks. These agents go beyond merely responding to queries; they actively contribute to achieving specific goals.
 
-### Use of LAMs in Medical diagnosis
+3. **Advanced Capabilities**
+   - By integrating linguistic proficiency with autonomous task execution and decision-making, LAMs represent a significant advancement over traditional models.
+   - The architecture of LAMs is designed to simulate applications and human actions they replicate. Unlike simple textual representations, LAMs effectively simulate the composition and execution of diverse applications without needing real-time demonstrations.
+   - This capability is powered by advancements in neuro-symbolic programming and pattern recognition.
 
-* LAMs can be used to analyze medical images and help doctors diagnose diseases. 
-* LAMs are used to develop AI-powered medical diagnosis systems, analyze patient data, and even assist surgeons during complex procedures, improving patient outcomes.
+## LAMs vs. LLMs
 
-### LLM vs LAM
+- **Scope of Functionality**
+  - **LLMs**: Primarily excel in language understanding and text generation. They generate text-based responses based on input prompts.
+  - **LAMs**: Extend beyond language tasks to perform complex, goal-oriented actions. They can handle tasks such as booking appointments, making reservations, and executing other interactive tasks.
 
-* Large Language Models can understand what you prompt and give you textual or visual outputs and also we can perform some changes to it to do some actions if you provide a good prompt and pass some APIs 
-but it involves some additional effort to achieve that.
+- **Interaction with Systems**
+  - **LLMs**: Limited to generating text and cannot execute tasks that involve interacting with external systems.
+  - **LAMs**: Designed to connect with real-world systems, enabling them to perform physical tasks, control devices, and manage information across various applications.
 
-* Large Action Models are designed to understand what you say and take action with it.
+- **Architectural Differences**
+  - **LLMs**: Rely primarily on neural network architectures for language processing.
+  - **LAMs**: Incorporate hybrid approaches combining neural networks with symbolic reasoning and planning algorithms. This allows them to understand both language context and the structure of actions required to accomplish tasks.
 
-### How LAMs Combine Language Understanding with Autonomous Action
-* Unlike LLMs, which primarily focus on processing and generating text, LAMs possess the unique ability to interpret human language and autonomously execute actions based on that understanding.
-* This seamless integration of language comprehension and action execution enables LAMs to generate actionable insights and drive tangible outcomes in real-time.
+## Advantages Over Existing Models
 
+- **Current AI Models**
+  - While current AI models, including conversational assistants like Alexa, Siri, and Cortana, can provide detailed processes for tasks like ordering food online, they cannot execute these tasks.
+  - Existing AI agents can be trained for specific tasks, but they lack the comprehensive capabilities of LAMs.
 
-#### References 
-  
+- **Enhanced Speed and Complexity**
+  - LAMs operate at approximately ten times the speed of general LLMs, making them highly efficient.
+  - They are designed to handle complex actions across various domains, marking a transformative shift in AI capabilities.
+
+## Potential Applications
+
+- **Education**
+  - Tutoring in different subjects.
+  - Providing feedback on essays.
+  - Simulating real-world scenarios.
+
+- **Automation**
+  - Conducting analyses and producing reports.
+  - Managing tasks such as scheduling and reservations.
+
+- **Healthcare**
+  - Automating routine diagnostic and administrative tasks, potentially transforming patient care and operational efficiency.
+
+## Conclusion
+
+Large Action Models (LAMs) are advanced computational models designed to handle sophisticated actions in various domains. By combining the strengths of LLMs with autonomous task execution, LAMs open up new possibilities for AI applications, offering significant improvements in efficiency and capability.
